@@ -1,0 +1,4 @@
+.idea
+*.zip
+#use directory temp for your own files
+temp

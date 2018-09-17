@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Extend WakaTime </title>
+    <script src="../lib/jquery-3.3.1.min.js" type="text/javascript"></script> <!-- Подключаю jquery -->
+    <script src="../scripts/popup.js" type="text/javascript"></script> <!-- Подключаю jquery -->
+    <link href="./popup.css" rel="stylesheet" type="text/css"/><!-- Подключаю стили-->
+</head>
+<body>
+<div id="options"><!-- меню -->
+
+    <div class="is_log_in">
+       <span class="title">Включён</span>
+        <div><span class="text">Имя:</span><span class="name"></span></div>
+        <div><span class="text">Логин:</span><span class="nick"></span></div>
+        <div><span class="text">E-mail:</span><span class="email"></span></div>
+        <div class="tweaks"><a target="_blank" href="/config.html">настройки</a></div>
+        <br>
+    </div>
+    <div class="not_log_in" style="display: none;">
+        Пожалуйста <a target="_blank" href="/config.html">настройте</a> плагин
+    </div>
+    <div class="debug">
+
+
+    </div>
+</div>
+  <!-- в этот блок буду загружать данные, которые будут показываться пользователю-->
+<!--<script src="popup.js"></script>&lt;!&ndash; скрипт, выполняющийся при нажатии на иконку расширения&ndash;&gt;-->
+</body>
+</html>
